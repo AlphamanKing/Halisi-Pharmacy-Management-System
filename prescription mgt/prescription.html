@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>Prescriptions Management</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #3498db;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+
+    section {
+      margin: 2em;
+    }
+
+    button {
+      background-color: #caf88e;
+      color: #1d1111;
+      border: none;
+      padding: 1em 1.4em;
+      cursor: pointer;
+      margin-right: 1em;
+      border-radius: 5px;
+      font-size: 0.9em;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #2c3e50;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 1em;
+      text-align: left;
+    }
+
+    th {
+      background-color: #3498db;
+      color: #fff;
+    }
+
+    tr:hover {
+      background-color: #ecf0f1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Halisi Pharmacy Management System</h1>
+  </header>
+
+  <section>
+    <h2>Prescriptions Management</h2>
+
+    <!-- CRUD operation buttons -->
+    <button>Add</button>
+    <button>View</button>
+    <button>Edit</button>
+    <button>Remove</button>
+
+    <!-- Prescription data table -->
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Patient Name</th>
+          <th>Medication</th>
+          <th>Quantity</th>
+          <th>Doctor</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Populate with actual prescription data -->
+        <tr>
+          <td>1</td>
+          <td>John Doe</td>
+          <td>Aspirin</td>
+          <td>2 tablets</td>
+          <td>Dr. Smith</td>
+          <td>2024-01-16</td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>

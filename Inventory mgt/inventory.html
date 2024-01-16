@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Inventory Management</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .button-container {
+            margin-bottom: 20px;
+        }
+
+        .crud-button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #4CAF50;
+            transition: background-color 0.3s;
+        }
+
+        .crud-button:hover {
+            background-color: #45a049;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: #fff;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .inventory-image {
+            max-width: 100%;
+            max-height: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Halisi Pharmacy Management System</h1>
+    </header>
+
+    <section>
+
+        <h2>Inventory Management</h2>
+        
+        <div class="button-container">
+            <button class="crud-button">Add Item</button>
+            <button class="crud-button">Edit Item</button>
+            <button class="crud-button">Delete Item</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Item ID</th>
+                    <th>Item Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Populate this section with your inventory data -->
+                <tr>
+                    <td>1</td>
+                    <td>Paracetamol</td>
+                    <td>100</td>
+                    <td>$5.00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Aspirin</td>
+                    <td>50</td>
+                    <td>$3.00</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+
+    </section>
+
+</body>
+</html>
+
+
